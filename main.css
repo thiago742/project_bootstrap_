@@ -1,0 +1,72 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #5a2317;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #5a2317;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+
+}
+
+.navbar-brand {
+    font-family: "Anton", cursive;
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+.chef-color {
+    color: #ff461d;
+}
+
+.section-title {
+    font-family: "Anton", cursive;
+}
+
+#sobre-o-restaurante,
+#cardapio {
+    background-color: #ffeae6;
+}
+
+.text-colored {
+    color: #5a2317;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: #5a2317;
+    color: #fff;
+}
+
+
+.nav-cardapio .nav-link:hover {
+    color:#5a2317
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+    text-decoration: none;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carrosel-item img {
+        height: 280px;
+    }
+}
